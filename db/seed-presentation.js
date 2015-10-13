@@ -7,19 +7,19 @@ for (var i = 0; i < students.length; i++) {
   user.addUser({
     name: students[i].name,
     email: students[i].email,
-    githublogin: '',
-    cohort: '',
-    zip: '',
-    twitter: '',
-    website: '',
-    gender: '',
-    hasGivenPermission: '',
-    thesis: '',
-    thesisurl: '',
-    greenfield: '',
-    greenfieldurl: '',
-    legacy: '',
-    legacyurl: ''
+    // githublogin: '',
+    // cohort: '',
+    // zip: '',
+    // twitter: '',
+    // website: '',
+    // gender: '',
+    // hasGivenPermission: '',
+    // thesis: '',
+    // thesisurl: '',
+    // greenfield: '',
+    // greenfieldurl: '',
+    // legacy: '',
+    // legacyurl: ''
   }, function() {
     console.log('seed record created');
   });
